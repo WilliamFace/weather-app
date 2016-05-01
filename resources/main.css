@@ -1,0 +1,33 @@
+
+@font-face {font-family: 'Montserrat', sans-serif;}
+
+* {color: #112233;}
+
+body {
+    text-align: center;
+    background-color: #F0F1F5!important;
+    color: #112233;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #F0F1F5;
+}
+
+input#weather-location {
+    border: none;
+    background-color: none;
+    color: #112233;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0;
+    max-width: 160px;
+}
+
+button#try-me {
+    outline: none;
+    background-color: #112233;
+    color: #F0F1F5;
+    border: none;
+}
