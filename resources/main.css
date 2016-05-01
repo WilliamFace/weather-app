@@ -31,3 +31,29 @@ button#try-me {
     color: #F0F1F5;
     border: none;
 }
+
+.info-box {
+    border-raidus: 10%;
+    border: solid 1px #112233;
+    width: 250px;
+    margin: auto 0;
+    height: 200px;
+    margin: 10px;
+}
+
+.weather-data {
+    width: 50%;
+    margin-top: 75px;
+}
+
+.weather-icon {
+    border-right: solid 1px #112233;
+}
+
+.weather-temp {
+    border-left: solid 1px #112233;
+}
+
+.inline {
+    float: left;
+}
