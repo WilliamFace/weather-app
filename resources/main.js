@@ -21,7 +21,15 @@ document.getElementById("try-me").addEventListener("click", userLocation);
 
 // FUNCTIONS
 
-    // Core functions
+    // Updating global variables
+
+    function setWeatherData() {
+        tempCelcius = localWeather.main.temp - 273.15;
+        tempFahrenheit = tempCelcius * 1.8 + 32;
+        weatherType = localWeather.weather[0].main;
+    }
+
+    // Core functionality
 
     function userLocation() {
         if (navigator.geolocation) {
@@ -42,17 +50,8 @@ document.getElementById("try-me").addEventListener("click", userLocation);
         });
     }
 
-
-    // Updating global variables
-
-    function setWeatherData() {
-        tempCelcius = localWeather.main.temp - 273.15;
-        tempFahrenheit = tempCelcius * 1.8 + 32;
-        weatherType = localWeather.weather[0].main;
-    }
-
-    // Update Location field with Name of locaiton
-
     function updateLocation() {
         document.getElementById("weather-location").value = localWeather.name;
     }
+
+    function updateIcon(); 

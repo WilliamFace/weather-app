@@ -1,6 +1,18 @@
 
 @font-face {font-family: 'Montserrat', sans-serif;}
 
+
+@font-face {
+    font-family: 'MeteoconsRegular';
+    src: url('meteocons-webfont.eot');
+    src: url('meteocons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('meteocons-webfont.woff') format('woff'),
+         url('meteocons-webfont.ttf') format('truetype'),
+         url('meteocons-webfont.svg#MeteoconsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {color: #112233;}
 
 body {
@@ -8,6 +20,10 @@ body {
     background-color: #F0F1F5!important;
     color: #112233;
     font-family: 'Montserrat', sans-serif;
+}
+.icon:before {
+	font-family: 'MeteoconsRegular';
+	content: attr(data-icon);
 }
 
 a {
@@ -25,7 +41,7 @@ input#weather-location {
     max-width: 160px;
 }
 
-button#try-me {
+button {
     outline: none;
     background-color: #112233;
     color: #F0F1F5;
