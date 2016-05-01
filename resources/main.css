@@ -21,10 +21,6 @@ body {
     color: #112233;
     font-family: 'Montserrat', sans-serif;
 }
-.icon:before {
-	font-family: 'MeteoconsRegular';
-	content: attr(data-icon);
-}
 
 a {
     text-decoration: none;
