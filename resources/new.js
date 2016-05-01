@@ -56,3 +56,5 @@ document.getElementById("try-me").addEventListener("click", userLocation);
     function updateLocation() {
         document.getElementById("weather-location").value = localWeather.name;
     }
+
+    

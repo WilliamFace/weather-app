@@ -44,16 +44,18 @@ button#try-me {
 .weather-data {
     width: 50%;
     margin-top: 75px;
+    font-size: 3em;
 }
 
 .weather-icon {
     border-right: solid 1px #112233;
 }
 
-.weather-temp {
-    border-left: solid 1px #112233;
-}
 
 .inline {
     float: left;
+}
+
+.weather-data button {
+    font-size: 0.2em;
 }
