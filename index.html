@@ -8,13 +8,24 @@
         <title>williamFace | Local Weather App</title>
         <link rel="stylesheet" href="resources/main.css" media="screen" title="no title" charset="utf-8">
         <link rel="stylesheet" href="<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>" type="text/css">
+        <link rel="stylesheet" href=http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css>
         <link rel="stylesheet" href="resources/external/css/weather-icons.css" type="text/css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     </head>
     <body>
 
-        <section class="main-feature">
-                    <h1>Weather App</h1>
+        <section class="location-feature">
+            <h1>Weather App</h1>
+
+            <div class="main-location-info">
+                <h2 id="location-name"></h1>
+                <div class="first-detail">
+                    <span class="when">10:00</span>
+                    <span class="weather-icon"></span>
+                    <span class="weather-temp"></span>
+                </div>
+
+            </div>
                     <h2>Your local weather</h2>
                     <div class="my-location-box">
                             <p id="location-line">
